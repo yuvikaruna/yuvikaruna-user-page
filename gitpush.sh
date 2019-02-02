@@ -1,4 +1,3 @@
-git add .
 
 git status
 read
@@ -6,9 +5,9 @@ read
 echo 'Enter the commit message:'
 read commitMessage
 
-git commit -m "$commitMessage"
+git commit -am "$commitMessage"
 
 
-git push origin yuvikaruna-user-name
+git push origin master
 
 read
