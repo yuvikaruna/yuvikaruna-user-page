@@ -9,6 +9,6 @@ read commitMessage
 git commit -m "$commitMessage"
 
 
-git push 
+git push origin https://github.com/yuvikaruna/yuvikaruna-user-name.git
 
 read
